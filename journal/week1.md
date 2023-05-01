@@ -6,7 +6,7 @@
 The Dockerfile can access [here](https://github.com/iilness2/aws-bootcamp-cruddur-2023/blob/main/backend-flask/Dockerfile)
 
 ### Build the Docker
-![Docker build backend!](journal/assets/week1-docker-build-backend.png)
+![Docker build backend](journal/assets/week1-docker-build-backend.png)
 
 ### Result from running the Docker
 ![Docker Running Backend!](journal/assets/week-1docker-running-backend.png)
