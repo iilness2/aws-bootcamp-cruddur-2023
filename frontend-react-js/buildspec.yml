@@ -5,14 +5,14 @@ phases:
     runtime-versions:
       docker: 20
     commands:
-      - echo "cd into $CODEBUILD_SRC_DIR/backend"
-      - cd $CODEBUILD_SRC_DIR/backend-flask
+      - echo "cd into $CODEBUILD_SRC_DIR/frontend"
+      - cd $CODEBUILD_SRC_DIR/frontend-react-js
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $IMAGE_URL
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t backend-flask .
+      - docker build -t frontend-react-js .
       - "docker tag $REPO_NAME $IMAGE_URL/$REPO_NAME"
   post_build:
     commands:
@@ -27,9 +27,9 @@ env:
   variables:
     AWS_ACCOUNT_ID: 680406325253
     AWS_DEFAULT_REGION: us-east-1
-    CONTAINER_NAME: backend-flask
+    CONTAINER_NAME: frontend-react-js
     IMAGE_URL: 680406325253.dkr.ecr.us-east-1.amazonaws.com
-    REPO_NAME: backend-flask:latest
+    REPO_NAME: frontend-react-js:latest
 artifacts:
   files:
     - imagedefinitions.json
