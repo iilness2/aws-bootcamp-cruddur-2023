@@ -63,7 +63,6 @@ aws sts get-caller-identity
 ![Check alarm is created](assets/week0-check-alarm-is-created.png)
 
 
-
 ### Create an AWS Budget
 
 1. Get AWS Account ID and set it as env
@@ -78,3 +77,5 @@ aws sts get-caller-identity
 
 ![Budget is created](assets/week0-budget-is-created.png)
 
+## AWS account alias
+![AWS Account Alias](assets/week-o-using-account-alias.png)
