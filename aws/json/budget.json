@@ -1,0 +1,9 @@
+{
+    "BudgetName": "limitBudget",
+    "BudgetLimit": {
+        "Amount": "100",
+        "Unit": "USD"
+    },
+    "TimeUnit": "DAILY",
+    "BudgetType": "COST"
+}
