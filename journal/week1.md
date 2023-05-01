@@ -34,4 +34,5 @@ Docker compose yaml can access [here](https://github.com/iilness2/aws-bootcamp-c
 
 ### note
 adding postgresql inside docker-compose. can check [here](https://github.com/iilness2/aws-bootcamp-cruddur-2023/blob/main/docker-compose.yaml#L20)
+
 adding dynamodb in local, can check [here](https://github.com/iilness2/aws-bootcamp-cruddur-2023/blob/main/docker-compose.yaml#L30)
