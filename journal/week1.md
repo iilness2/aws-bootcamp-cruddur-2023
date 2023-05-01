@@ -9,7 +9,7 @@ The Dockerfile can access [here](https://github.com/iilness2/aws-bootcamp-cruddu
 ![Docker build backend](assets/week1-docker-build-backend.png)
 
 ### Result from running the Docker
-![Docker Running Backend](assets/week-1docker-running-backend.png)
+![Docker Running Backend](assets/week1-docker-running-backend.png)
 
 ### Result from running the Docker
 ![Docker Backend Result](assets/week1-docker-backend-result.png)
