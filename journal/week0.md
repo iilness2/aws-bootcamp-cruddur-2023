@@ -1,5 +1,8 @@
 # Week 0 — Billing and Architecture
 
+## Architecture Diagram using Napkin
+![Architecture Diagram Napkin](assets/week0-diagram-napkin.png)
+
 ## Getting the AWS CLI Working
 
 ### Install AWS CLI
