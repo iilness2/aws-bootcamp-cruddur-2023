@@ -9,23 +9,28 @@ When I running the cdk, need to make sure all the library already install before
 If still not got install, need to install the library that still left
 
 ### Build the app
-```npm run build
+```
+npm run build
 ```
 ### Running bootstrap
-``` cdk bootstrap aws://680406325253/ca-central-1
+```
+cdk bootstrap aws://680406325253/ca-central-1
 ```
 
 ### Check everything working
-```cdk ls
+```
+cdk ls
 ```
 
 or
-```cdk synth
+```
+cdk synth
 ```
 ![cdk synth](assets/week8-cdk-synth.png)
 
 ### Deploy the app
-``` cdk deploy
+```
+cdk deploy
 ```
 ![cdk deploy](assets/week8-cdk-deploy.png)
 
@@ -39,6 +44,7 @@ lambda
 
 S3
 ![s3](assets/week8-s3-bucket.png)
+
 ### Troubleshoot
 * make sure upload s3 bucket name not created before
 * make sure running cdk inside cdk folder
