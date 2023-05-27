@@ -12,3 +12,6 @@ opentelemetry-instrumentation-requests
 
 blinker
 rollbar
+
+psycopg[binary]
+psycopg[pool]
