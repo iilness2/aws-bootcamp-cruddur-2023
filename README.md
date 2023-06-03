@@ -31,3 +31,4 @@ The `/journal` directory contains
 - [ ] [Week 11](journal/week11.md)
 - [ ] [Week 12](journal/week12.md)
 - [ ] [Week 13](journal/week13.md)
+- [Review Article](https://dev.to/iilness2/my-experiences-and-perspective-with-free-aws-cloud-project-bootcamp-by-andrew-brown-2pdi)
