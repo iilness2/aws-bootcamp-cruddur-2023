@@ -37,3 +37,7 @@ Network Layer Diagram can check [here](assets/NetworkLayerDiagram.drawio)
 
 ### Install Service
 For install service can script [here](backend-flask/bin/cfn/service)
+
+Service and Database Diagram can check [here](assets/ServiceandRDSDiagram.drawio)
+
+![Service and Database Diagram](assets/ServiceandRDSDiagram.png)
