@@ -7,7 +7,7 @@ For install cicd can use script [here](backend-flask/bin/cfn/cicd)
 
 CICD Diagram can check [here](assets/CICDDiagram.drawio)
 
-![CICD Diagram](assets/CICD Diagram.png)
+![CICD Diagram](assets/CICDDiagram.png)
 
 ## Cluster
 
