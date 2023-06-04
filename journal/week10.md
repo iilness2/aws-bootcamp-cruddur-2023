@@ -29,6 +29,10 @@ For install frontend can use script [here](backend-flask/bin/cfn/frontend)
 ### Install Networking
 For install networking can script [here](backend-flask/bin/cfn/networking)
 
+Network Layer Diagram can check [here](assets/NetworkLayerDiagram.drawio)
+
+![Network Layer Diagram](assets/NetworkLayerDiagram.png)
+
 ## Service
 
 ### Install Service
